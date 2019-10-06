@@ -1,0 +1,11 @@
+<h1>Home</h1>
+<p>You're logged in</p>
+<div>
+  Available products
+  <ul>
+    <li *ngFor="let product of products">
+        <div><img src="{{ product.imageUrl }}" /></div>
+     
+    </li>
+  </ul>
+</div>
